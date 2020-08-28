@@ -16,7 +16,7 @@ export default function SearchForm({ params, onParamChange }) {
                 <Form.Group as={Col} xs="auto" className="ml-2">
                     <Form.Check onChange={onParamChange} value={params.full_time} name="full_time" id="full-time" label="Full-Time" type="checkbox" className="mb-2"/>
                     <Form.Check onChange={onParamChange} value={params.javascript} name="part_time" id="part-time" label="Part-Time" type="checkbox" className="mb-2"/> 
-                    <Form.Check onChange={onParamChange} value={params.javascript} name="javascript" id="javascript" label="javascript" type="checkbox" className="mb-2"/>
+                    <Form.Check onChange={onParamChange} value={params.javascript} name="javascript" id="javascript" label="Javascript" type="checkbox" className="mb-2"/>
                 </Form.Group>
                 
              </Form.Row>
