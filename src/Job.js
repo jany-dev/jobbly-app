@@ -6,7 +6,7 @@ export default function Job({ job }) {
     const [open,setOpen] =useState(false)
 
     return (
-        <Card className="mb-3">
+        <Card className="mb-3 rounded z-depth-5 hoverable mx-3">
             <Card.Body>
                 <div className="d-flex justify-content-between">
                     <div>

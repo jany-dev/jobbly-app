@@ -11,7 +11,7 @@ export default function JobsPagination({ page, setPage, hasNextPage }) {
    
    
     return (
-        <Pagination>
+        <Pagination className="px-3">
             {page !== 1 && <Pagination.Prev onClick={() => adjustPage(-1)} />}
             {page !== 1 && <Pagination.Item onClick={() => setPage(1)}>1</ Pagination.Item>}
             {page > 2 && <Pagination.Ellipsis />}
