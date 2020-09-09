@@ -1,5 +1,5 @@
 # Jobbly - a dynamic job board for Software Developer roles 
-Users are able to filter for roles based on location, job type, programming language and salary band. Roles are refrshed daily!
+Users are able to filter for roles based on location, job type, programming language and salary band. Roles are refreshed daily!
 
 ## Project Status
 The website is currently going through a re-design.
