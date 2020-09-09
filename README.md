@@ -1,4 +1,5 @@
-Dynamic job board for Software Developer roles, users are able to filter for roles based on location, job type, programming language and salary band
+# Dynamic job board for Software Developer roles 
+Users are able to filter for roles based on location, job type, programming language and salary band
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
