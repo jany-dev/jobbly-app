@@ -12,3 +12,13 @@ code {
     monospace;
 }
 
+/*.jumbotron{
+  position: relative;
+}*/ 
+input#description.form-control{
+  position: absolute;
+  bottom: 3rem;
+width: 75%;
+border-radius: 21px;
+justify-content: center;
+}

@@ -23,7 +23,7 @@ function App() {
 
   return (
     <Container fluid className="pb-2">
-      <Jumbotron className="p-3" style={{backgroundColor:'#333333', textAlign:'center', color: '#ffff', height: '15rem'}}>
+      <Jumbotron className="p-3 position-relative" style={{backgroundColor:'#333333', textAlign:'center', color: '#ffff', height: '15rem'}}>
 <h1 className="mb-4 pt-5" > Jobbly </h1>
 <h5 className="text-muted">Find your perfect programming job</h5>
 </Jumbotron>

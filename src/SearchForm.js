@@ -8,8 +8,7 @@ export default function SearchForm({ params, onParamChange }) {
         <Form className="mb-4 px-3">
             <Form.Row className="align-items-end px-2">
                 <Col md>
-                    <Form.Label> Description</Form.Label>
-                    <Form.Control onChange={onParamChange} value={params.description} name="description" type="text" />
+                    <Form.Control onChange={onParamChange} value={params.description} name="description" type="text" placeholder="What are you looking for?" id="description" className="ml-4 pl-3 py-3"/>
                 </Col>
                 <Col md>
                     <Form.Label> Location</Form.Label>
