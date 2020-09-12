@@ -17,8 +17,34 @@ code {
 }*/ 
 input#description.form-control{
   position: absolute;
-  bottom: 3rem;
+  bottom: 4.25rem;
 width: 75%;
 border-radius: 21px;
 justify-content: center;
+}
+
+
+.fa-search:before{
+  position: absolute;
+  bottom: 4.9rem;
+  right: 3.5rem;
+  color: #9A9A9A;
+}
+
+@media only screen and (min-width: 768px) {
+  input#description.form-control{
+    width:37%;
+    margin-left: 13rem !important;
+}
+.fa-search:before{
+  right: 14.5rem;
+}
+
+input#location.form-control{
+  width: 50%;
+}
+
+span.Collapsible_trigger.is-closed{
+  color: red;
+}
 }
