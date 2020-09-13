@@ -5,7 +5,7 @@ import Grid from '@material-ui/core/Grid';
 
 export default function SearchForm({ params, onParamChange }) {
     return (
-        <Form className="mb-4 px-3 px-md-5 text-center">
+        <Form className="mb-5 px-3 px-md-5 text-center">
             <Form.Row className="align-items-end px-2">
                 <Col md>
                     <Form.Control onChange={onParamChange} value={params.description} name="description" type="text" placeholder="What are you looking for?" id="description" className="ml-5 pl-3 py-3 pl-md-3 pl-lg-4 bg-white shadow s" /><i class="fas fa-search"></i>
