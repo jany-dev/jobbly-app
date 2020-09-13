@@ -31,6 +31,25 @@ justify-content: center;
   color: #9A9A9A;
 }
 
+
+
+
+@media only screen and (min-width: 425px) {
+  input#description.form-control{
+  width:69%;
+  margin-left: 3.5rem !important;
+  padding-left: 1.5rem;
+  }
+  .fa-search:before{
+    right: 5.5rem;
+}
+
+input#location.form-control{
+  width: 80%;
+  margin: 0 5rem 0 2.5rem;
+}
+}
+
 @media only screen and (min-width: 768px) {
   input#description.form-control{
     width:37%;
@@ -42,9 +61,54 @@ justify-content: center;
 
 input#location.form-control{
   width: 50%;
+  margin: 0 5rem 0 10.5rem;
 }
 
 span.Collapsible_trigger.is-closed{
   color: red;
+}
+}
+
+@media only screen and (min-width: 1024px) {
+  input#description.form-control{
+    width:34%;
+    margin-left: 19rem !important;
+    padding-left: 1.75rem;
+}
+
+.fa-search:before{
+  right: 20.5rem;
+}
+
+input#location.form-control{
+  width: 50%;
+  margin: 0 2rem 0 14.5rem;
+}
+
+}
+
+@media only screen and (min-width: 1024px) {
+#card.mb-3.hoverable.mx-3.bg-white.shadow.m.mx-md-5.card{
+ margin: 4rem 10rem 4rem 10rem !important;
+}
+ul.px-3.px-md-5.pagination{
+  margin-left: 10rem;
+  padding-left: 0;
+}
+
+}
+
+@media only screen and (min-width: 1044px) {
+  input#description.form-control{
+    width:30%;
+    margin-left: 30.5em !important;
+}
+
+.fa-search:before{
+  right: 31.5rem;
+}
+
+input#location.form-control{
+  margin: 0 2rem 0 21.5rem;
 }
 }
